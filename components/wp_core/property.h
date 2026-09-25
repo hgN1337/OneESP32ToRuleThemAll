@@ -178,6 +178,7 @@ struct Property : public oe32trta::detail::Property {
     PROPERTY(WAERMEERTRAG_2WE_HEIZ_SUM_KWH, 0x0928);
     PROPERTY(WAERMEERTRAG_2WE_HEIZ_SUM_MWH, 0x0929, Type::et_double_val);
     PROPERTY(HEIZ_KUEHL_LEISTUNG, 0xc0ee, Type::et_cent_val);
+    PROPERTY(FEUCHTESCHUTZ, 0x09d1, Type::et_bool);
     PROPERTY(ABLUFTFEUCHTE, 0xc0ef);
     PROPERTY(VERDICHTER_STARTS, 0xc0f4);
     PROPERTY(VERDICHTER_STARTS_K, 0xc0f5);
