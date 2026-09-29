@@ -183,6 +183,13 @@ struct Property : public oe32trta::detail::Property {
     PROPERTY(VERDICHTER_STARTS, 0xc0f4);
     PROPERTY(VERDICHTER_STARTS_K, 0xc0f5);
     PROPERTY(BETRIEBS_STATUS_2, 0xc356);
+    PROPERTY(FEUCHTESCHUTZ, 0x09d1, Type::et_bool);
+    PROPERTY(FEUCHTE_SCHWELLWERT, 0x0650);
+    PROPERTY(FEUCHTE_HYSTERESE, 0x008e);
+    PROPERTY(FEUCHTE_MASKIERZEIT, 0x064f);
+    PROPERTY(FEUCHTE_MIN, 0x09d2);
+    PROPERTY(FEUCHTE_LUEFTUNGSREDUZIERUNG, 0x06a4);
+    PROPERTY(FEUCHTE_SOLL, 0x09d3);
 #endif
 
 // =======================================================================
