@@ -33,4 +33,10 @@ packages:
   LUEFT_ZEIT_AUSSERPLAN_STUFE3: !include { file: templates/wp_number.yaml, vars: { property: "LUEFT_ZEIT_AUSSERPLAN_STUFE3",   icon: "mdi:fan-clock", min: "0", max: "1000",  step: "5"   }}
   LUEFT_STUFE_AUSSERPLAN: !include { file: templates/wp_number.yaml, vars: { property: "LUEFT_STUFE_AUSSERPLAN", icon: "mdi:fan-chevron-up", min: "0", max: "3", step: "1" }}
   LUFTSTOP_SOMMER_WWB: !include { file: templates/wp_switch.yaml, vars: { property: "LUFTSTOP_SOMMER_WWB", icon: "mdi:heat-wave" }}
-  FEUCHTESCHUTZ: !include { file: templates/wp_switch.yaml, vars: { property: "FEUCHTESCHUTZ", icon: "mdi:water-percent-alert" }}
+  FEUCHTESCHUTZ:                !include { file: templates/wp_switch.yaml, vars: { property: "FEUCHTESCHUTZ", icon: "mdi:water-percent-alert" }}
+  FEUCHTE_SCHWELLWERT:          !include { file: templates/wp_number.yaml, vars: { property: "FEUCHTE_SCHWELLWERT",          icon: "mdi:water-percent", unit: "%", min: "0", max: "100", step: "1" }}
+  FEUCHTE_HYSTERESE:            !include { file: templates/wp_number.yaml, vars: { property: "FEUCHTE_HYSTERESE",            icon: "mdi:water-percent", unit: "%", min: "0", max: "20",  step: "1" }}
+  FEUCHTE_MASKIERZEIT:          !include { file: templates/wp_number.yaml, vars: { property: "FEUCHTE_MASKIERZEIT",          icon: "mdi:timer-outline",            min: "0", max: "60",  step: "1" }}
+  FEUCHTE_MIN:                  !include { file: templates/wp_number.yaml, vars: { property: "FEUCHTE_MIN",                  icon: "mdi:water-percent", unit: "%", min: "0", max: "100", step: "1" }}
+  FEUCHTE_LUEFTUNGSREDUZIERUNG: !include { file: templates/wp_number.yaml, vars: { property: "FEUCHTE_LUEFTUNGSREDUZIERUNG", icon: "mdi:fan-minus",     unit: "%", min: "0", max: "100", step: "1" }}
+  FEUCHTE_SOLL:                 !include { file: templates/wp_number.yaml, vars: { property: "FEUCHTE_SOLL",                 icon: "mdi:water-percent", unit: "%", min: "0", max: "100", step: "1" }}
