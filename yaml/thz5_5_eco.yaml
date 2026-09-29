@@ -40,3 +40,4 @@ packages:
   FEUCHTE_MIN:                  !include { file: templates/wp_number.yaml, vars: { property: "FEUCHTE_MIN",                  icon: "mdi:water-percent", unit: "%", min: "0", max: "100", step: "1" }}
   FEUCHTE_LUEFTUNGSREDUZIERUNG: !include { file: templates/wp_number.yaml, vars: { property: "FEUCHTE_LUEFTUNGSREDUZIERUNG", icon: "mdi:fan-minus",     unit: "%", min: "0", max: "100", step: "1" }}
   FEUCHTE_SOLL:                 !include { file: templates/wp_number.yaml, vars: { property: "FEUCHTE_SOLL",                 icon: "mdi:water-percent", unit: "%", min: "0", max: "100", step: "1" }}
+  FEUCHTE_LEISTUNGSERHOEHUNG:   !include { file: templates/wp_number.yaml, vars: { property: "FEUCHTE_LEISTUNGSERHOEHUNG",   icon: "mdi:fan-plus",      unit: "%", min: "0", max: "100", step: "1" }}
