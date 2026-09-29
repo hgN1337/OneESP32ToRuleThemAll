@@ -190,6 +190,7 @@ struct Property : public oe32trta::detail::Property {
     PROPERTY(FEUCHTE_MIN, 0x09d2);
     PROPERTY(FEUCHTE_LUEFTUNGSREDUZIERUNG, 0x06a4);
     PROPERTY(FEUCHTE_SOLL, 0x09d3);
+    PROPERTY(FEUCHTE_LEISTUNGSERHOEHUNG, 0x06a5);
 #endif
 
 // =======================================================================
